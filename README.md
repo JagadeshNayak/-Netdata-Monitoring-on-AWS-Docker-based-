@@ -70,10 +70,42 @@ Logs
 To view logs inside the container:
 
 docker exec -it netdata bash
+
 cd /var/log/netdata
+
 ls
 
 <img width="945" alt="log" src="https://github.com/user-attachments/assets/469bfea9-c02f-406b-ab66-8afe16d8358a" />
+
+# As per the project objectives
+**CPU of Netdata**:Displays real-time CPU usage, including system, user, nice, and idle time, helping identify processing load and bottlenecks.
+
+<img width="952" alt="Directories" src="https://github.com/user-attachments/assets/9a088af0-2390-40c1-a2d7-17c1628e8874" />
+
+**Directories**: Monitors disk usage and I/O for each directory, showing read/write stats and storage consumption to track file system health.
+
+<img width="952" alt="Directories" src="https://github.com/user-attachments/assets/b5a8afc5-b5c5-4ded-9419-5a8488b16c48" />
+
+**I m happy to share the successful completion of my mini-project: Monitoring System Resources Using Netdata on an AWS EC2 Ubuntu Server with Docker.**
+
+In this project,:
+
+Deployed Netdata in a Docker container
+
+Monitored CPU, memory, disk, and Docker container metrics
+
+Accessed real-time system performance via a web dashboard
+
+Explored Netdata alerts, charts, and logs for deeper insights
+
+This hands-on task helped me strengthen my understanding of system monitoring and containerized deployments on cloud infrastructure.
+
+**Thanks to  Elevate Labs**
+
+ # Gugulothu Jagadish
+
+
+
 
 
 
